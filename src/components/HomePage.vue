@@ -48,10 +48,11 @@ export default {
                 { name: "description", content: "Simplify your business with our ERPNext services and solutions." },
                 { property: "og:title", content: "ERPNext Startup - Home" },
                 { property: "og:description", content: "Simplify your business with our ERPNext services." },
-                { property: "og:image", content: "https://nannygranny-prod.s3.ap-southeast-2.amazonaws.com/chatroom/804/ptFZ41XQtSTbKvgepRooUYPLGWwSbx1eUjrNNNfL.png" },
+                // { property: "og:image", content: "https://nannygranny-prod.s3.ap-southeast-2.amazonaws.com/chatroom/804/ptFZ41XQtSTbKvgepRooUYPLGWwSbx1eUjrNNNfL.png" },
+                { property: "og:image", content: "https://temp-pro-delta.vercel.app/images/home.png" },
                 { property: "og:type", content: "website" },
                 { name: "twitter:card", content: "summary_large_image" },
-                { name: "twitter:image", content: "https://nannygranny-prod.s3.ap-southeast-2.amazonaws.com/chatroom/804/ptFZ41XQtSTbKvgepRooUYPLGWwSbx1eUjrNNNfL.png" }
+                { name: "twitter:image", content: "https://temp-pro-delta.vercel.app/images/home.png" }
             ],
         }
     },
