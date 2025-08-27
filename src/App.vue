@@ -7,19 +7,11 @@
     <main>
       <router-view />
     </main>
-
   </div>
 </template>
 
-<script>
-import Navbar from './components/NavBar.vue';
-
-export default {
-  name: 'App',
-  components: {
-    Navbar
-  },
-}
+<script setup>
+import Navbar from './components/NavBar.vue'
 </script>
 
 <style>

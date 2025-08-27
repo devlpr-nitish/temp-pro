@@ -12,7 +12,7 @@
       </button>
 
       <!-- Nav Links -->
-      <nav :class="{ 'show': isOpen }">
+      <nav :class="{ show: isOpen }">
         <router-link to="/" exact>Home</router-link>
         <router-link to="/about">About</router-link>
         <router-link to="/services">Services</router-link>
@@ -22,20 +22,14 @@
   </header>
 </template>
 
-<script>
-export default {
-  name: "MainNavbar",
-  data() {
-    return {
-      isOpen: false
-    };
-  },
-  methods: {
-    toggleMenu() {
-      this.isOpen = !this.isOpen;
-    }
-  }
-};
+<script setup>
+import { ref } from 'vue'
+
+const isOpen = ref(false)
+
+function toggleMenu() {
+  isOpen.value = !isOpen.value
+}
 </script>
 
 <style scoped>
